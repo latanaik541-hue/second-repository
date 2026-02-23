@@ -1,0 +1,83 @@
+*{
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0%;
+        padding:0%;
+    }
+}
+.container{
+    max-width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.text h1{
+    font-size: 60px;
+    color: black;
+   text-align: center;
+}
+.text p{
+    font-size: 20px;
+    color: gray;
+    text-align:center;
+}
+.cards{
+    max-width: 100%;
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card{
+    /* flex:1; */
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid gray;
+    border-top: 5px solid rgb(245, 113, 135);
+    padding: 20px;
+    
+}
+.circle{
+    position: absolute;
+    top: 304px;
+    left:17%;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.line{
+    border: 2px solid rgb(245, 113, 135);
+    width: 20%;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+.text1{
+    font-style: italic;
+    
+}
+
+.name{
+    color: rgb(244, 82, 109);
+    padding-top: 70px;
+}
+.star{
+    color: gold;
+}
+.quote{
+    color:rgb(245, 99, 123);
+    height: 20px;
+    width: 20px;
+    
+}
