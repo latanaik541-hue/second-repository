@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
 import { MdStarRate } from "react-icons/md";
-
+import {profile} from '../assets/profile.jpg'
 import { MdOutlineSignalCellularAlt1Bar } from "react-icons/md";
 
 
@@ -16,7 +16,7 @@ const Header = () => {
         </div>
         <div className='cards'>
         <div className='card'>
-        <div className='circle'></div>   
+        <div className='circle'><img src='profile'></img></div>   
             <div className='quote'> { MdOutlineSignalCellularAlt1Bar }</div>
             <p className='text1'>
                Absolutely loved my experience!<br></br>
