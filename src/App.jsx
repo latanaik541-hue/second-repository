@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from './component/Header'
+import Header from './component/Header';
 // import Footer from './component/Footer'
 
 function App() {
@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-        <Header/>
+         <Header/> 
      
      
-     {/* <Footer/> */}
+        {/* <Footer/>   */}
      
     </>
   )

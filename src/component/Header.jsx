@@ -1,8 +1,9 @@
 import React from 'react'
 import './Header.css';
 import { MdStarRate } from "react-icons/md";
-import {profile} from '../assets/profile.jpg'
-import { MdOutlineSignalCellularAlt1Bar } from "react-icons/md";
+import profile from '../assets/profile.jpg';
+import { RiDoubleQuotesR } from "react-icons/ri";
+
 
 
 const Header = () => {
@@ -15,20 +16,20 @@ const Header = () => {
             <p>Subcribe to GlowNest YouTube channel to watch more videos.</p>
         </div>
         <div className='cards'>
-        <div className='card'>
-        <div className='circle'><img src='profile'></img></div>   
-            <div className='quote'> { MdOutlineSignalCellularAlt1Bar }</div>
-            <p className='text1'>
+        <div className='card1'>
+        <div className='circle'><img src={profile}/></div>   
+            <div className='quote1'><RiDoubleQuotesR /></div>
+            <p className='text2'>
                Absolutely loved my experience!<br></br>
                My hair has my never locked better. 
             </p>
             <h3 className='name'>Sarah L.</h3>
             <div className='star'><MdStarRate /><MdStarRate /><MdStarRate /><MdStarRate /><MdStarRate /></div>
         </div>
-         <div className='card'>
-          <div className='circle'></div>
+         <div className='card2'>
+          <div className='circle1'><img src={profile}></img></div>
             
-            <p className='quote'></p>
+            <p className='quote'><RiDoubleQuotesR /></p>
             <p className='text1'>
                The most relaxing facial ever.<br></br>
                My skin is glowing!
@@ -37,10 +38,10 @@ const Header = () => {
             <div className='star'><MdStarRate /><MdStarRate /><MdStarRate /><MdStarRate /><MdStarRate /></div>
         </div>
          
-          <div className='card'>
-            <div className='circle'></div>
+          <div className='card2'>
+            <div className='circle2'><img src={profile}></img></div>
             
-            <p className='quote'></p>
+            <p className='quote'><RiDoubleQuotesR /></p>
             <p className='text1'>
                Friendly staff and amazing service.
                Highly recommend!
@@ -49,10 +50,10 @@ const Header = () => {
             <div className='star'><MdStarRate /><MdStarRate /><MdStarRate /><MdStarRate /><MdStarRate /></div>
         
           </div>
-           <div className='card'>
-            <div className='circle'></div>
+           <div className='card2'>
+            <div className='circle3'><img src={profile}></img></div>
             
-            <p className='quote'></p>
+            <p className='quote'><RiDoubleQuotesR /></p>
             <p className='text1'>
               I felt truely pampered from start to<br></br>
               finish.
