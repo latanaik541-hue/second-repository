@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import Header from './component/Header';
-// import Footer from './component/Footer'
+// import Header from './component/Header';
+ import Gallery from './component/Gallery'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-         <Header/> 
+         {/* <Header/>  */}
      
      
-        {/* <Footer/>   */}
+        <Gallery/>  
      
     </>
   )
